@@ -34,8 +34,6 @@ worth mentioning is that i've removed the "-freq 120" because most Monitors aren
 
 ###2. config files
 
-To install those you'll have to download the files you're interested in form the /cfg folder.
-
 File and what it does: 
 
 
@@ -80,7 +78,7 @@ _addons.cfg
 
 `Netgraph when pressing Tab, smaller map when pressing use key, jump'n'throw for grenades, Helplines for Smokes and Damage Display on Top Left corner`
 
-Thanks to [bananagaming](https://www.youtube.com/user/OfficialBananaGamers) for those addons
+Thanks to [bananagaming](https://www.youtube.com/user/OfficialBananaGamers) and [gamebanana.com](http://csgo.gamebanana.com/) for those addons
 
 
 
@@ -96,6 +94,18 @@ video.txt
 
 
 
-###3. after copying those files
+###3. Download and configuration from autoexec.cfg
 
-make those read only! 
+
+
+After you've downloaded the files you're interestet in, open the "autoexec.cfg" in the editor of your choice (e.g. Notepad, Notepad++, Sublime Text, Brackets etc.) 
+Now you'll search inside this file for lines starting with "exec ", e.g. you aren't interested in a buyscript for your Numpad you simply put "//" before "exec _buyscript.cfg",
+repeat this for every script you don't want to use.
+
+
+
+###4. after copying these files
+
+make these files read only! 
+
+
