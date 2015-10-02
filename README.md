@@ -46,6 +46,7 @@ includes:
 #### other resources i use
 
 ![Gobold Font Preview](http://fonts.spddl.de/thumbnails/_Gobold.jpg)
+
 preview includes Font + Language File
 + [Gobold Font](http://fonts.spddl.de/#Gobold)
 + [Language File](http://www.spddl.de/csgo_english-txt/csgo_multi-txt)
