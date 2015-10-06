@@ -29,10 +29,13 @@ includes:
 + Personal video settings for fullscreen 144hz gaming
 
 
-#### launch_options.md information
+#### adv_settings_and_info.md information
 
 includes:
 + Personal launch options for 144hz 128 tickrate gaming
++ Windows Settings
++ Hardware Info
++ Peripherals  
 
 
 #### Hotkeys information
