@@ -21,6 +21,7 @@ includes:
 + options for maxfps ingame and menu
 + Performance and Updaterates
 + exec config.cfg
++ Fish.gif script [Fish.gif redditpost](https://www.reddit.com/r/GlobalOffensive/comments/3vs3yi/ingame_csgo_fishgif_bind/)
 
 
 #### video.txt information
