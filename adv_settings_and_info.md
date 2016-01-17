@@ -25,7 +25,7 @@ SSD: Samsung 850 Evo Basic 250GB
 ---
 Monitor: BenQ XL2430T
 ---
-Keyboard: Logitech G510
+Keyboard: Logitech G910
 Mouse: Logitech G300s
 Old Mouse: Logitech G600 (800dpi)
 Headset: Logitech G930 (backup)
