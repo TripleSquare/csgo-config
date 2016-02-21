@@ -1,0 +1,223 @@
+"RadioPanel.txt"
+{
+
+//"SFUI_StandardRadio"
+//"SFUI_GroupRadio"	
+//"SFUI_ReportRadio"	
+	"Groups"
+	{
+		"standard"
+		{
+			"hotkey"	"1"
+			"title"	"Bot training Menu"
+			"timeout"	"10"
+			
+			"Commands"
+			{
+				"Add Bot (CT)"
+				{
+					"hotkey"	"1"
+					"label"	"Add Bot (CT)"
+					"cmd"	"bot_add_ct"
+				}
+				
+				"Add Bot (T)"
+				{
+					"hotkey"	"2"
+					"label"	"Add Bot (T)"
+					"cmd"	"bot_add_t"
+				}
+				
+				"Bot Place"
+				{
+					"hotkey"	"3"
+					"label"	"Bot Place"
+					"cmd"	"bot_stop 1; bot_place"
+				}
+				
+				"Bot Crouch (ON)"
+				{
+					"hotkey"	"4"
+					"label"	"Bot Crouch (ON)"
+					"cmd"	"bot_crouch 1"
+				}
+				
+				"Bot Crouch (OFF)"
+				{
+					"hotkey"	"5"
+					"label"	"Bot Crouch (OFF)"
+					"cmd"	"bot_crouch 0"
+				}
+				
+				"Bot Mimic (ON)"
+				{
+					"hotkey"	"6"
+					"label"	"Bot Mimic (ON)"
+					"cmd"	"bot_mimic_yaw_offset 0; bot_mimic 1"
+				}
+				
+				"Bot Mimic (OFF)"
+				{
+					"hotkey"	"7"
+					"label"	"Bot Mimic (OFF)"
+					"cmd"	"bot_mimic_yaw_offset 0; bot_mimic 0"
+				}
+				
+				"Stop all bots"
+				{
+					"hotkey"	"8"
+					"label"	"Stop all bots"
+					"cmd"	"bot_stop 1"
+				}
+				
+				"Kick all bots"
+				{
+					"hotkey"	"9"
+					"label"	"Kick all bots"
+					"cmd"	"bot_kick"
+				}
+				
+			}
+		}
+		
+		"training"
+		{
+			"hotkey"	"2"
+			"title"	"Cheat Menu"
+			"timeout"	"10"
+			
+			"Commands"
+			{
+				"Toggle Noclip"
+				{
+					"hotkey"	"1"
+					"label"	"Toggle Noclip"
+					"cmd"	"sv_cheats 1; noclip"
+				}
+				
+				"Toggle Godmode"
+				{
+					"hotkey"	"2"
+					"label"	"Toggle Godmode"
+					"cmd"	"sv_cheats 1; god"
+				}
+				
+				"Restart Game"
+				{
+					"hotkey"	"3"
+					"label"	"Restart Game"
+					"cmd"	"mp_restartgame 1; mp_warmup_end; bot_stop 0"
+				}
+				
+				"Impact & Trajectory (ON)"
+				{
+					"hotkey"	"4"
+					"label"	"Impact & Trajectory (ON)"
+					"cmd"	"sv_cheats 1; say_team Impact & Trajectory (ON); sv_grenade_trajectory 1; sv_grenade_trajectory_time 10; sv_showimpacts 1; sv_showimpacts_time 5"
+				}
+				
+				"Impact & Trajectory (OFF)"
+				{
+					"hotkey"	"5"
+					"label"	"Impact & Trajectory (OFF)"
+					"cmd"	"say_team Impact & Trajectory (OFF); sv_grenade_trajectory 0; sv_grenade_trajectory_time 10; sv_showimpacts 0; sv_showimpacts_time 5"
+				}
+				
+				"Clip Brushes (ON)"
+				{
+					"hotkey"	"6"
+					"label"	"Clip Brushes (ON)"
+					"cmd"	"sv_cheats 1; r_drawclipbrushes 2"
+				}
+				
+				"Clip Brushes (OFF)"
+				{
+					"hotkey"	"7"
+					"label"	"Clip Brushes (OFF)"
+					"cmd"	"r_drawclipbrushes 0"
+				}
+				"Enable Training"
+				{
+					"hotkey"	"8"
+					"label"	"Enable Training"
+					"cmd"	"sv_cheats 1; mp_solid_teammates 1; mp_limitteams 0; mp_autoteambalance 0; mp_roundtime 60; mp_roundtime_defuse 60; mp_maxmoney 60000; mp_startmoney 60000; mp_freezetime 0; mp_buytime 9999; mp_buy_anywhere 1; sv_infinite_ammo 2; ammo_grenade_limit_total 5; bot_kick; mp_warmup_end; mp_restartgame 1"
+				}
+				
+				
+			}
+		}
+		
+		"radio"
+		{
+			"hotkey"	"3"
+			"title"	"Radio Menu"
+			"timeout"	"5"
+			
+			"Commands"
+			{
+				"roger"
+				{
+					"hotkey"	"1"
+					"label"	"Yes"
+					"cmd"	"roger"
+				}
+				
+				"negative"
+				{
+					"hotkey"	"2"
+					"label"	"No"
+					"cmd"	"negative"
+				}
+				
+				"go"
+				{
+					"hotkey"	"3"
+					"label"	"Go"
+					"cmd"	"go"
+				}
+				
+				"holdpos"
+				{
+					"hotkey"	"4"
+					"label"	"Hold"
+					"cmd"	"holdpos"
+				}
+				
+				"followme"
+				{
+					"hotkey"	"5"
+					"label"	"Follow"
+					"cmd"	"followme"
+				}
+				
+				"thanks"
+				{
+					"hotkey"	"6"
+					"label"	"Thanks"
+					"cmd"	"thanks"
+				}
+
+				"cheer"
+				{
+					"hotkey"	"7"
+					"label"	"Cheer"
+					"cmd"	"cheer"
+				}	
+				
+				"sorry"
+				{
+					"hotkey"	"8"
+					"label"	"Sorry"
+					"cmd"	"say_team Sorry!"
+				}	
+
+				"askfordrop"
+				{
+					"hotkey"	"9"
+					"label"	"Drop"
+					"cmd"	"needbackup; say_team Need a drop!"
+				}					
+			}
+		}
+	}
+}
