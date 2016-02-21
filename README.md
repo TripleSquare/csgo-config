@@ -39,7 +39,7 @@ includes:
 
 #### Hotkeys information
 
-![hotkeys](https://raw.githubusercontent.com/TripleSquare/csgo-config/master/#screenshots/hotkeys.png)
+![hotkeys](https://raw.githubusercontent.com/TripleSquare/csgo-config/master/screenshots/hotkeys.png)
 
 + TAB shows Scoreboard + netgraph
 + use-key(f) increase / decrease radar size
@@ -58,14 +58,14 @@ thanks to [spddl](http://spddl.de/) for the great work!
 
 all Screenshots are resized from 1920x1080p
 
-![chat](https://raw.githubusercontent.com/TripleSquare/csgo-config/master/#screenshots/chat.jpeg)
-![crosshair1](https://raw.githubusercontent.com/TripleSquare/csgo-config/master/#screenshots/crosshair1.jpeg)
-![crosshair2](https://raw.githubusercontent.com/TripleSquare/csgo-config/master/#screenshots/crosshair2.jpeg)
-![crosshair3](https://raw.githubusercontent.com/TripleSquare/csgo-config/master/#screenshots/crosshair3.jpeg)
-![hud_safezonexy_pistolviewmodel](https://raw.githubusercontent.com/TripleSquare/csgo-config/master/#screenshots/hud_safezonexy_pistolviewmodel.jpeg)
-![hud_safezonexy_rifleviewmodel](https://raw.githubusercontent.com/TripleSquare/csgo-config/master/#screenshots/hud_safezonexy_rifleviewmodel.jpeg)
-![loadingscreen](https://raw.githubusercontent.com/TripleSquare/csgo-config/master/#screenshots/loadingscreen.jpeg)
-![radiomenu](https://raw.githubusercontent.com/TripleSquare/csgo-config/master/#screenshots/radiomenu.png)
+![chat](https://raw.githubusercontent.com/TripleSquare/csgo-config/master/screenshots/chat.jpeg)
+![crosshair1](https://raw.githubusercontent.com/TripleSquare/csgo-config/master/screenshots/crosshair1.jpeg)
+![crosshair2](https://raw.githubusercontent.com/TripleSquare/csgo-config/master/screenshots/crosshair2.jpeg)
+![crosshair3](https://raw.githubusercontent.com/TripleSquare/csgo-config/master/screenshots/crosshair3.jpeg)
+![hud_safezonexy_pistolviewmodel](https://raw.githubusercontent.com/TripleSquare/csgo-config/master/screenshots/hud_safezonexy_pistolviewmodel.jpeg)
+![hud_safezonexy_rifleviewmodel](https://raw.githubusercontent.com/TripleSquare/csgo-config/master/screenshots/hud_safezonexy_rifleviewmodel.jpeg)
+![loadingscreen](https://raw.githubusercontent.com/TripleSquare/csgo-config/master/screenshots/loadingscreen.jpeg)
+![radiomenu](https://raw.githubusercontent.com/TripleSquare/csgo-config/master/screenshots/radiomenu.png)
 
 #### Tips
 
