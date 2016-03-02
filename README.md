@@ -34,7 +34,7 @@ includes:
 #### CS:GO - Launch parameter
 
 ```
--console -novid -high -freq 144 -refresh 144 -tickrate 128 -nod3d9ex -nojoy -processheap -lv -language english +exec autoexec.cfg
+-threads 8 -lv -console -novid -high -freq 144 -refresh 144 -tickrate 128 -nojoy -nod3d9ex -processheap -language english +exec autoexec.cfg 
 ```
 
 #### Hotkeys information
